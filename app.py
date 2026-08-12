@@ -3,7 +3,13 @@ from data_processor import DataProcessor
 import json
 import os
 
+
 app = Flask(__name__)
+
+# Your routes here...
+
+if __name__ == '__main__':
+    app.run(debug=True)
 
 # Initialize processor
 processor = DataProcessor()
