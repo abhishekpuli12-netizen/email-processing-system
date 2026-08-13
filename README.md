@@ -1,4 +1,4 @@
-# 📧 Smart Email Processing System — README
+# 📧 Smart Email Processing System 
 
 ---
 
