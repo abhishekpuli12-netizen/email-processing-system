@@ -18,7 +18,7 @@ The system classifies every message into one of **6 categories**:
 | **Sensitive Information** | Messages with sensitive data |
 | **General Information** | Default category when nothing else matches |
 
-###Project Structure
+### Project Structure
 email-processing-system/
 │
 ├── app.py                          # Flask web application (main entry point)
