@@ -18,7 +18,6 @@ email-processing-system/
 ├── .gitignore                      # Git ignore file
 ├── README.md                       # Complete documentation
 ├── MANDATORY_DEMO_REPORT.md        # Report for 15 mandatory IDs
-├── FIXES_REPORT.md                 # Documentation of fixes made
 │
 ├── templates/
 │   └── index.html                  # Web dashboard HTML
@@ -26,8 +25,6 @@ email-processing-system/
 ├── static/
 │   └── style.css                   # Dashboard styling
 │
-├── uploads/                        # Temporary CSV uploads
-│   └── (uploaded files go here)
 │
 ├── output/                         # Generated JSON output files
 │   ├── classifications.json        # All 900 classifications
