@@ -18,39 +18,7 @@ The system classifies every message into one of **6 categories**:
 | **Sensitive Information** | Messages with sensitive data |
 | **General Information** | Default category when nothing else matches |
 
-### Project Structure
-email-processing-system/
-│
-├── app.py                          # Flask web application (main entry point)
-├── classifier.py                   # Message classification logic
-├── data_processor.py               # Main processing pipeline
-├── task_extractor.py               # Task & event extraction
-├── sensitive_detector.py           # Sensitive info detection
-├── generate_demo_report.py         # Demo report generator
-├── requirements.txt                # Python dependencies
-├── .env                            # Environment variables (if any)
-├── .gitignore                      # Git ignore file
-├── README.md                       # Complete documentation
-├── MANDATORY_DEMO_REPORT.md        # Report for 15 mandatory IDs
-├── FIXES_REPORT.md                 # Documentation of fixes made
-│
-├── templates/
-│   └── index.html                  # Web dashboard HTML
-│
-├── static/
-│   └── style.css                   # Dashboard styling
-│
-├── uploads/                        # Temporary CSV uploads
-│   └── (uploaded files go here)
-│
-├── output/                         # Generated JSON output files
-│   ├── classifications.json        # All 900 classifications
-│   ├── tasks.json                  # 330 tasks + 130 events
-│   ├── sensitive.json              # 30 sensitive items detected
-│   └── statistics.json             # Processing statistics
-│
-└── (Your Dataset)                  # NOT in GitHub repo
-    └── messages.csv                # Original dataset (not pushed)
+
 
 ### Processing Steps
 
